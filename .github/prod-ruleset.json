@@ -1,14 +1,11 @@
 {
-  "name": "Protect QA, main, master and production branches",
+  "name": "Protect Production branches",
   "target": "branch",
   "enforcement": "active",
   "conditions": {
     "ref_name": {
       "include": [
-        "refs/heads/main",
-        "refs/heads/master",
-        "refs/heads/production",
-        "refs/heads/prod"
+        "refs/heads/main"
       ],
       "exclude": []
     }

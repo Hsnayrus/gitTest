@@ -1,5 +1,5 @@
 {
-  "name": "Protect QA, main, master and production branches",
+  "name": "Protect QA branch",
   "target": "branch",
   "enforcement": "active",
   "conditions": {
